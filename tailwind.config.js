@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: '"Inter", sans-serif',
+      lexend:'"Lexend Deca", sans-serif';
     },
     colors: {
       'very-dark-blue': 'hsl(233, 47%, 7%)',
