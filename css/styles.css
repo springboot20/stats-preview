@@ -739,6 +739,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: calc(6rem * var(--tw-space-y-reverse));
   }
 
+  .lg\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+  }
+
   .lg\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -765,5 +771,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:font-normal {
+    font-weight: 400;
   }
 }
