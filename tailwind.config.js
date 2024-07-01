@@ -20,6 +20,10 @@ module.exports = {
       ...colors,
     },
     extend: {
+      fontFamily: {
+        inter: ' "Inter", sans-serif',
+        lexend: ' "Inter", sans-serif',
+      },
       backgroundImage: {
         'sm-bg': 'url(./../images/image-header-mobile.jpg)',
         'md-bg': 'url(./../images/image-header-desktop.jpg)',

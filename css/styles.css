@@ -435,6 +435,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   src: url(/fonts/Inter-Bold.ttf);
 }
 
+@font-face {
+  font-weight: 400;
+
+  src: url(/fonts/LexendDeca-regular.ttf);
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -599,16 +605,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
 }
 
 .font-inter {
   font-family: "Inter", sans-serif;
+}
+
+.font-lexend {
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .text-4xl {
@@ -626,21 +632,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
 .font-normal {
   font-weight: 400;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .uppercase {
@@ -694,36 +691,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:grid {
     display: grid;
   }
 
   .lg\:h-full {
     height: 100%;
-  }
-
-  .lg\:h-64 {
-    height: 16rem;
-  }
-
-  .lg\:max-w-2xl {
-    max-width: 42rem;
-  }
-
-  .lg\:max-w-4xl {
-    max-width: 56rem;
-  }
-
-  .lg\:max-w-xl {
-    max-width: 36rem;
-  }
-
-  .lg\:max-w-6xl {
-    max-width: 72rem;
   }
 
   .lg\:max-w-7xl {
@@ -738,32 +711,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-grow: 1;
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-start {
     align-items: flex-start;
   }
 
-  .lg\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
-  }
-
   .lg\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(5rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:p-28 {
-    padding: 7rem;
   }
 
   .lg\:p-20 {
@@ -778,19 +741,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: left;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-xl {
@@ -798,19 +751,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1.75rem;
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:font-normal {
