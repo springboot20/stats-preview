@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(0, 0%, 100%);
+      }
+    </style>
+  </head>
+
+  <body class="bg-very-dark-blue font-inter">
+    <div class="p-10 md:p-0 h-screen flex items-center justify-center">
+      <div
+        class="rounded-xl overflow-hidden max-w-md mx-auto bg-dark-desaturated-blue lg:grid lg:grid-cols-2 lg:max-w-6xl lg:h-70"
+      >
+        <div
+          class="image-container h-80 relative w-full md:order-2 before:absolute before:inset-0 before:content-[' '] before:bg-soft-violet-accent/40 md:order-2 lg:flex-shrink-0 lg:h-full object-center object-cover"
+        ></div>
+
+        <div class="p-10 md:p-12 space-y-7 lg:space-y-24 lg:flex-grow">
+          <div class="space-y-6">
+            <h1
+              class="text-center text-4xl lg:text-left lg:text-3xl font-bold text-neutral-white"
+            >
+              Get
+              <span class="text-soft-violet-accent">insights</span>
+              that help your business grow.
+            </h1>
+            <p
+              class="text-lg font-normal text-center lg:text-left lg:text-xl text-slightly-transparent-white-p"
+            >
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:pt-10">
+            <div class="flex items-center justify-center flex-col">
+              <h2 class="text-4xl font-bold text-neutral-white">
+                10k+
+              </h2>
+              <p
+                class="text-xl font-semibold text-slightly-transparent-white-p uppercase"
+              >
+                companies
+              </p>
+            </div>
+
+            <div class="flex items-center justify-center flex-col">
+              <h2 class="text-4xl font-bold text-neutral-white">
+                10k+
+              </h2>
+              <p
+                class="text-xl font-semibold text-slightly-transparent-white-p uppercase"
+              >
+                templates
+              </p>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <h2 class="text-4xl font-bold text-neutral-white">
+                12M+
+              </h2>
+              <p
+                class="text-xl font-semibold text-slightly-transparent-white-p uppercase"
+              >
+                queries
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution max-w-xl mx-auto">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener"
+      >
+        Frontend Mentor
+      </a>
+      . Coded by
+      <a href="#">Your Name Here</a>
+      .
+    </div>
+  </body>
+</html>

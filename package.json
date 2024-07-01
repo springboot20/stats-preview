@@ -1,0 +1,21 @@
+{
+	"name": "tailwind",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"build:css": "npx tailwindcss build -i src/tailwind.css -o css/styles.css --watch"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.2.7"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.21",
+		"vite": "^4.1.4"
+	}
+}
